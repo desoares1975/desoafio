@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "description": "none",
+  "main": "index.js",
+  "dependencies": {
+    "install": "^0.6.1",
+    "leaflet-routing-machine": "^2.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp watch test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/desoares1975/desoafio.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "desoares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desoares1975/desoafio/issues"
+  },
+  "homepage": "https://github.com/desoares1975/desoafio#readme"
+}

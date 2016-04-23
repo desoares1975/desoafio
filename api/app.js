@@ -9,17 +9,19 @@ app.use(bodyParser.json());
 
 app.listen(6900, ()=>{
 	'use strict';
-	console.log('');
-	console.log('');
-	console.log('WW   WW    WW                   lll');
-	console.log('WW  WWW   WW   oooooo   oooooo  lll    eeeee');
-	console.log('WW WW WW WW   ooo  ooo ooo  ooo lll   eee__ee');
-	console.log('WWWW  WWWW    ooo  ooo ooo  ooo lll   eee   ');
-	console.log('WWW   WWW      oooooo   oooooo   llll  eeeee');
+	console.log('                                 ll');
+	console.log('                        ******   ll');
+	console.log('                  ****    **     ll');
+	console.log('                   **      **    ll ');
+	console.log('ww        ww  ooooooo   ooooooo  ll  eeeeeee   ');
+	console.log('ww        ww oo  ** oo oo  ** oo ll ee     ee');
+	console.log('ww   ww   wwoo  *****ooo****** oolleeeeeeeeee');
+	console.log(' ww wwww ww oo      oo oo     oo ll ee');
+	console.log('  ww    ww    ooooooo   ooooooo  ll  eeeeeee');
 	console.log('______________________________________________');
 	console.log('______________________________________________');
-	console.log('_________________CHALENGE_____________________');
-	console.log('_______desoares - primary_data_unity__________');
+	console.log('_________________CHALLENGE____________________');
+	console.log('_______desoares_-_primary_data_unity__________');
 });
 
 module.exports = app;

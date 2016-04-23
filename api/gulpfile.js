@@ -26,5 +26,5 @@ gulp.task('start', function () {
 gulp.task('watch', ()=>{
 	'use strict';
 
-	gulp.watch('./*.js', ['test']);
+	gulp.watch('./*.js', ['test', 'start']);
 });
