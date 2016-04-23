@@ -1,6 +1,6 @@
 /* jshint esversion: 6, strict: true */
 
-console.log('Unit testing starting...');
+console.log('Functional test starting...');
 
 var fs = require('fs'),
     files = fs.readdirSync(__dirname + '/');

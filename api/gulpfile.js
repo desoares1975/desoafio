@@ -1,28 +1,30 @@
+/* jshint esversion: 6, strict: true */
+
 var gulp = require('gulp'),
 	mocha = require('gulp-mocha'),
-	jshint = require('gulp-jshint');
+	nodemon = require('gulp-nodemon');
 
-gulp.task('test', function () {
-	gulp.
-		src('./test').
-		pipe(jshint()).
-		pipe(mocha()).
-		on('error', function () {
-			console.log('error:');
-			this.emit('end');
+gulp.task('test', ()=>{
+	'use strict';
+
+	gulp.src('./test')
+	.pipe(mocha())
+	.on('error', ()=>{
+		console.log('error:');
+		this.emit('end');
 	});
 });
 
 gulp.task('start', function () {
-	gulp.
-		src('./app').
-		pipe(jshint()).
-		on('error', function () {
-			console.log('error:');
-			this.emit('end');
-	});
+  nodemon({
+    'script': 'app.js',
+    'ext': 'js html',
+  	'env': { 'NODE_ENV': 'development' }
+  });
 });
 
-gulp.task('watch', function () {
-	gulp.watch('./*.js', ['test', 'start']);
+gulp.task('watch', ()=>{
+	'use strict';
+
+	gulp.watch('./*.js', ['test']);
 });
