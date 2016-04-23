@@ -14,7 +14,7 @@ app.listen(6900, ()=>{
 	console.log('WW   WW    WW                   lll');
 	console.log('WW  WWW   WW   oooooo   oooooo  lll    eeeee');
 	console.log('WW WW WW WW   ooo  ooo ooo  ooo lll   eee__ee');
-	console.log('WWWW  WWWW    ooo  ooo ooo  ooo lll   eee');
+	console.log('WWWW  WWWW    ooo  ooo ooo  ooo lll   eee   ');
 	console.log('WWW   WWW      oooooo   oooooo   llll  eeeee');
 	console.log('______________________________________________');
 	console.log('______________________________________________');
@@ -29,3 +29,7 @@ app.get('/:start/:destiny/:points', (req, res)=>{
 app.all('*', (req, res)=>{
 	return res.status(404).json({'message': 'This section of the web page has not been set yeat, we\'re sorry...' });
 });
+
+/*
+google maps api key:AIzaSyBA6TMCMzjanLkWqqajC4W9TSSfYYOXoms
+*/
