@@ -1,0 +1,117 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.67981929999996,
+                    -23.5387675,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Rua Ministro Gastão Mesquita"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.678066400000034,
+                    -23.5509186,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sumaré"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.66297140000001,
+                    -23.5574614,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Rua Bela Cintra"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.64934359999995,
+                    -23.5390511,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Santa Cecilia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.6501808,
+                    -23.5479367,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Higienópolis"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.6409326,
+                    -23.5866235,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Humberto I "
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.6613281,
+                    -23.5744601,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Estados unidos"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.68318270000001,
+                    -23.59445,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Vila Olímpia"
+            }
+        }
+    ]
+}
