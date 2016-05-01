@@ -1,8 +1,10 @@
 var mongoose = require('mongoose'),
 	options = {},
-	db = 'woole_' + process.env.NODE_ENV;
+	db = 'mongodb://localhost/woole_' + process.env.NODE_ENV || 'develop';
 
-mongoose.connect(db, options, function (err) {
+mongoose.connect(db, options, (err)=>{
+	'use strict';
+
 	if (err) {
 		console.log('Error while connecting to the DB' + db + '.');
 		return;
@@ -12,5 +14,5 @@ mongoose.connect(db, options, function (err) {
 });
 
 module.exports = {
-	'Locus': require('./locus');
+	'Locus': require('./locus')
 };

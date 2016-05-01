@@ -1,4 +1,4 @@
-var monsoose = require('mongoose'),
+var mongoose = require('mongoose'),
 	Schema = mongoose.Schema;
 
 var LocusSchema = new Schema({
